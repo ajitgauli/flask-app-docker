@@ -1,0 +1,9 @@
+blinker
+flask-testing==0.8.*
+pytest-cov==3.*
+pytest-env==0.6.*
+pytest-libfaketime==0.1.*
+pytest-mock==3.*
+pytest==6.*
+pytest-xdist[psutil]==2.*
+pylint==2.*
