@@ -1,7 +1,7 @@
 '''
     A simple hello world API
 '''
-# disabling fault pylint rules
+# disabling faulty pylint rules
 # pylint:disable=redefined-outer-name
 
 # Standard

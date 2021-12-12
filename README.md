@@ -1,6 +1,6 @@
 ## **My Flask App**
 This app provides `/` endpoint for request methods `GET` and `POST`.
-For `GET /` it returns an html message unless a header `Accept: appliction/json` is provided in which case it formats the response to JSON.<br/><br/>
+For `GET /` it returns a html message unless a header `Accept: appliction/json` is provided in which case it formats the response to JSON.<br/><br/>
 
 
 ### **Installation**
@@ -29,7 +29,7 @@ should return
 
     <p>Hello, World</p>
 ---
-    curl localhost:8080/ --header "Accept: application/json"
+    curl localhost:8080/ -H "Accept: application/json"
 
 should return 
 
